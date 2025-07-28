@@ -1,0 +1,59 @@
+*{
+    line-height: 2px;
+}
+@font-face {
+    font-family: textstyle;
+    src: url(./Inter-VariableFont_slnt\,wght.ttf);
+}
+body{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#w1{
+    background-color: rgb(20, 19, 19);
+    height: 570px;
+    width: 350px;
+    display: grid;
+    place-items: center;
+    font-family: textstyle;
+    color: white;
+    border-radius: 15px;
+     padding-bottom: 30px; 
+}
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.c1{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(67, 65, 65);
+    text-align: center;
+    margin: 1px;
+}
+p{
+    font-size: 10px;
+    color: rgb(157, 152, 152);
+}
+.btn {
+  display: block;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin: 6px ;
+  width: 80%;
+  border-radius: 8px;
+  text-decoration:none;
+  font-weight: bold;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: red;
+}
